@@ -1,0 +1,73 @@
+{
+  "policy": {
+    "applyDate": "2023-03-16T00:00:00",
+    "currency": 1,
+    "quotationCode": "CHAOS01Q",
+    "serviceAgentCode": "CHAOS-CHL",
+    "salesChannelCode": " CHAOS-CHL",
+    "insurerCode": "CHAOS",
+    "inceptionDate": "2023-03-23T17:30:36",
+    "coverages": [{
+      "coverageSerialId": 1,
+      "chargePeriod": "2",
+      "chargeYear": 40,
+      "coveragePeriod": "2",
+      "coverageYear": 40,
+      "productCode": "RegularPrem_LongTerm",
+      "currentPremium": {
+        "paymentFreq": "1",
+        "sumAssured": 100000
+      },
+      "insureds": [{
+        "orderId": 1,
+        "partySerialId": 1
+      }]
+    }],
+    "payerAccounts": [{
+      "paymentMethod": 1,
+      "paymentMethodNext": 1
+    }],
+    "policyHolder": {
+      "partySerialId": 1,
+      "relationToLA": 1
+    },
+    "insureds": [{
+      "partySerialId": 1,
+      "relationToPH": 1
+    }],
+    "customers": [{
+      "partySerialId": 1,
+      "partyType": 1,
+      "person": {
+        "gender": "M",
+        "birthdate": "1993-01-09T00:00:00",
+        "certiType": 1,
+        "certiCode": "JOJO931288129",
+        "firstName": "Josef",
+        "lastName": "Joestar",
+        "nationality": "99",
+        "preferredLifeIndi": "2",
+        "smoking": "N",
+        "occupationCode": "2",
+        "marriageStatus": "6",
+        "employedIndi": "2"
+      },
+      "partyContact": {
+        "mobileTel": "412412",
+        "email": "JOJO@ebaotech.com"
+      },
+      "address": {
+        "address1": "Shanghai",
+        "address2": "",
+        "address3": "",
+        "address4": "eBao",
+        "postCode": "222222"
+      }
+    }]
+  },
+  "collection": {
+    "payMode": 1,
+    "currency": 1,
+    "feeAmount": 579
+  }
+}

@@ -1,0 +1,38 @@
+.banner {
+    height: 50px;
+    background-color: rgba(204, 240, 254) !important;
+
+}
+
+.banner_content {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+}
+
+/* .page-content {
+    height: calc(100vh - 100px);
+} */
+
+.content_step {
+    padding: 10px;
+}
+
+.footer {
+    height: 50px;
+    text-align: center;
+}
+
+.final_step_icon {
+    text-align: center;
+}
+
+.success_icon {
+    font-size: 100px;
+    color: rgb(25, 236, 39);
+}
+
+.life-notice {
+    font-size: 15px;
+}

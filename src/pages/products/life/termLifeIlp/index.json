@@ -1,0 +1,105 @@
+{
+  "clientRequestId": "LIMOLIBQ",
+  "clientRequestTime": "2023-11-06T16:15:58",
+  "policy": {
+    "applyDate": "2023-11-06T00:00:00",
+    "currency": 1,
+    "quotationCode": "LIMOLIBQ20231103",
+    "serviceAgentCode": "DELOITTEHK-CHL",
+    "salesChannelCode": "DELOITTEHK-CHL",
+    "insurerCode": "DELOITTEHK",
+    "inceptionDate": "2023-11-06T16:15:58",
+    "customers": [
+      {
+        "partySerialId": 1,
+        "partyType": "1",
+        "person": {
+          "gender": "M",
+          "birthdate": "2002-03-01T00:00:00",
+          "certiType": 9,
+          "certiCode": "ID202311031524325",
+          "firstName": "F202311031524325",
+          "middleName": "M",
+          "lastName": "L202311031524325",
+          "nationality": "9",
+          "occupationCode": 1,
+          "occupation": "IT Engineer",
+          "employerInfo": "eBaotech"
+        },
+        "partyContact": {
+          "mobileTel": "202311031524325"
+        },
+        "address": {
+          "address1": "Shanghai",
+          "address2": "Shanghai",
+          "address3": "202311031524325",
+          "address4": "202311031524325",
+          "postCode": "200433"
+        }
+      },
+      {
+        "partySerialId": 3,
+        "partyType": "1",
+        "person": {
+          "gender": "M",
+          "birthdate": "2002-03-01T00:00:00",
+          "certiType": 3,
+          "certiCode": "BENEID202311031524325",
+          "firstName": "BENEF202311031524325",
+          "middleName": "M",
+          "lastName": "BENEL202311031524325",
+          "nationality": "9"
+        }
+      }
+    ],
+    "coverages": [
+      {
+        "coverageSerialId": 1,
+        "chargePeriod": "3",
+        "chargeYear": 80,
+        "coveragePeriod": "1",
+        "coverageYear": 0,
+        "productCode": "RegularILP_PayWL_ByPrem",
+        "currentPremium": {
+          "paymentFreq": "1",
+          "sumAssured": 10000000,
+          "premium": 30000
+        },
+        "payPlans": [
+          {
+            "startDate": "2022-06-18T000:00:00",
+            "endDate": "2023-06-18T000:00:00",
+            "planType": 7,
+            "planFreq": 4,
+            "instalmentAmount": 200,
+            "regularWithdrawOption": 1,
+            "increaseOption": 1,
+            "increaseAmount": 500
+          }
+        ],
+        "insureds": [
+          {
+            "orderId": 1,
+            "partySerialId": 1
+          }
+        ]
+      }
+    ],
+    "policyHolder": {
+      "partySerialId": 1,
+      "relationToLA": 1
+    },
+    "insureds": [
+      {
+        "partySerialId": 1,
+        "relationToPH": 1
+      }
+    ],
+    "payerAccounts": [
+      {
+        "paymentMethod": 1,
+        "paymentMethodNext": 1
+      }
+    ]
+  }
+}

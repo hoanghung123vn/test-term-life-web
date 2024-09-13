@@ -1,0 +1,30 @@
+{
+    "property": {
+            "docker": {
+              "repository": "docker-all.repo.ebaotech.com",
+              "namespace": "platform"
+            },
+        
+            "buildparams": {
+                "build_project_name": "vela",
+				"build_node" : "master", 
+				"build_npm" : "node-v22.1.0",
+				"build_npm_command" : "npm run build:release",
+				"build_allow_version":"vela-SNAPSHOT"
+            },
+			
+			"UT":{
+				"UT_run" : "false",
+				"UT_threshold" : "70"
+			},
+			
+			"sonarparams": {
+				"sonar_branch" : "gimo-service",
+                "sonar_host_jenkins": "SonarQube Plugin 2.3"
+            },
+			
+            "otherparams": {
+				"email_list" : "dong.wang@ebaotech.com"
+			}
+    }
+}

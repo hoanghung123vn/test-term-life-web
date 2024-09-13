@@ -1,0 +1,38 @@
+{
+  "clientRequestId": "ffff4c6d000001120",
+  "clientRequestTime": "2023-06-17T11:19:42.286+0800",
+  "result": 1,
+  "traceId": "6050b225c282f6d06b5af857390d800a",
+  "policy": {
+    "extendedProps": {},
+    "inceptionDate": "2024-05-28T00:00:00.000+0800",
+    "quotationCode": "ffff4b8000000000",
+    "currency": 4,
+    "installPrem": 91.75,
+    "coverages": [
+      {
+        "extendedProps": {},
+        "coverageSerialId": -7325925,
+        "coverageNo": "-7325925",
+        "sumAssured": 100000.00,
+        "grossPremium": 91.750000,
+        "premium": 91.750000,
+        "premiumAn": 367.000000,
+        "discntedPremAn": 367.000000,
+        "insuredAge": 18,
+        "unit": 0.00,
+        "extraPrems": [],
+        "coverageLiabilities": [],
+        "paidupDate": "2024-09-27T00:00:00.000+0800",
+        "expiryDate": "2025-05-27T00:00:00.000+0800"
+      }
+    ],
+    "premTaxes": [],
+    "proposalNumber": "0001669612",
+    "policyNumber": "0001669612",
+    "policyId": -7325917,
+    "riskStatus": 1,
+    "issueDate": "2024-08-30T14:46:53.000+0800",
+    "expiryDate": "2025-05-27T00:00:00.000+0800"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "clientRequestId": "ffff4c6d00000000",
+  "clientRequestTime": "2023-06-17T11:19:42.286+0800",
+  "policy": {
+    "applyDate": "2023-06-17T11:19:42.301+0800",
+    "inceptionDate": "2024-05-28T09:31:08.696Z",
+    "quotationCode": "ffff4b8000000000",
+    "currency": 4,
+    "coverages": [
+      {
+        "coverageSerialId": 1,
+        "chargePeriod": "5",
+        "chargeYear": 4,
+        "coveragePeriod": "2",
+        "coverageYear": 1,
+        "productCode": "1YearRenewabTerm",
+        "currentPremium": {
+          "paymentFreq": "4",
+          "sumAssured": 100000
+        },
+        "insureds": [
+          {
+            "partySerialId": 1,
+            "orderId": 1
+          }
+        ]
+      }
+    ],
+    "policyHolder": {
+      "partySerialId": 1
+    },
+    "insureds": [
+      {
+        "partySerialId": 1,
+        "relationToPH": 1
+      }
+    ],
+    "beneficiaries": [
+      {
+        "partySerialId": 2,
+        "insuredPartySerialId": 1,
+        "beneType": 2,
+        "designation": 1,
+        "shareOrder": 1,
+        "shareRate": 1
+      }
+    ],
+    "payers": [
+      {
+        "partySerialId": 1,
+        "relationToPH": 1
+      }
+    ],
+    "payerAccounts": [
+      {
+        "paymentMethod": 1,
+        "paymentMethodNext": 1
+      }
+    ],
+    "customers": [
+      {
+        "partySerialId": 1,
+        "partyType": 1,
+        "person": {
+          "gender": "M",
+          "birthdate": "2006-04-17T00:00:00",
+          "certiType": 1,
+          "certiCode": "A",
+          "firstName": "TestUser",
+          "lastName": "TestLastname",
+          "preferredLifeIndi": "0",
+          "smoking": "Y",
+          "height": 170,
+          "weight": 60
+        },
+        "partyContact": {
+          "mobileTel": "+8615000546666",
+          "email": "yourcompanyemail@ebaotech.com"
+        },
+        "address": {
+          "address1": "shanghai",
+          "address2": "yangpu",
+          "address3": "songhu road",
+          "postCode": "200000"
+        }
+      },
+      {
+        "partySerialId": 2,
+        "partyType": 1,
+        "person": {
+          "gender": "M",
+          "birthdate": "2000-04-17T00:00:00",
+          "certiType": 1,
+          "certiCode": "B1234567",
+          "firstName": "BENEUser001",
+          "lastName": "BENELastname",
+          "preferredLifeIndi": "0",
+          "smoking": "Y",
+          "height": 170,
+          "weight": 60
+        },
+        "partyContact": {
+          "mobileTel": "+86111111",
+          "email": "yourcompanyemail@ebaotech.com"
+        },
+        "address": {
+          "address1": "shanghai",
+          "address2": "yangpu",
+          "address3": "songhu road",
+          "postCode": "200000"
+        }
+      }
+    ]
+  }
+}

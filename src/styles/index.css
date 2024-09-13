@@ -1,0 +1,585 @@
+#r_iframe{
+    height: 100vh;
+}
+/* products/travel/index.js */
+.uipage_pa .coverageCard,
+.uipage_pa .policyCard,
+.uipage_pa .payCard {
+    /* height: calc(100vh - 60px); */
+    height: 100vh;
+}
+
+.uipage_admin .coverageCard,
+.uipage_admin .policyCard,
+.uipage_admin .payCard {
+    height: 100vh;
+}
+
+
+.travelPage,
+.coverageCard,
+.policyCard,
+.payCard {
+    overflow: auto;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.travelPage .card-block,
+.coverageCard .card-block,
+.policyCard .card-block,
+.payCard .card-block {
+    padding: 0;
+}
+
+.travelHead{
+    position: relative;
+    background-color: #cef0fe;
+    height: 680px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    /* text-align: center; */
+    /* height: 570px;
+    background-image: url('../images/Travel_bg_home.jpg');
+    background-position: center; */
+}
+
+.entrance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrance-travel-item {
+    background-color: #6294d9;
+    /*font-size: 60px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 7;
+    border-radius: 20px;
+    /*vertical-align: center;*/
+    width: 40%;
+    height: 500px;
+    margin-top: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.entrance-travel-item-title {
+    font-size: 60px;
+    background-image: url('../images/travel.jpg');
+    background-position: center;
+}
+
+.entrance-travel-item-desc {
+    font-size: 12px;
+}
+
+.entrance-travel-item:hover {
+    box-shadow: 0 0 20px 2px #918f8f;
+    transition: all 0.5s;
+}
+
+.entrance-life-item {
+    background-color: rgba(20, 255, 3, 0.96);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 7;
+    border-radius: 20px;
+    /*vertical-align: center;*/
+    width: 40%;
+    height: 500px;
+    margin-top: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.entrance-life-item:hover {
+    box-shadow: 0 0 20px 2px #918f8f;
+    transition: all 0.5s;
+}
+
+
+.lifeHead{
+    position: relative;
+    /*background-color: #cef0fe;*/
+    height: 600px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+}
+
+.lifeHead_box{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    max-width: 1440px;
+    height: 570px;
+    width: 100%;
+}
+
+.lifeHead_box img{
+    width: 100%;
+    max-height: 100%;
+    height: 600px;
+    /*margin-left: 100px;*/
+}
+
+.travelHead_box{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    max-width: 1440px;
+    height: 570px;
+    width: 100%;
+}
+
+.travel_head_content{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 2;
+}
+
+.travelTitle{
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.lifeTitle{
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+
+}
+
+.travelTitle_sub{
+    font-size: 22px;
+    border: #444 solid 1px;
+    padding: 5px;
+    border-radius: 20px;
+    color: #444;
+}
+
+.lifeTitle_sub{
+    font-size: 22px;
+    border: #ffffff solid 1px;
+    padding: 5px;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+
+.travelInfo{
+    font-size: 20px;
+    margin: 45px 0 30px 0;
+    width: 50%;
+}
+
+.getQuoteBtn_box{
+    display: flex;
+    align-items: center;
+}
+
+.getQuoteBtn_box .welcome{
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.topHeadImg {
+    width: 100%;
+}
+
+.travelHeadImg{
+    /* background-color: #cef0fe; */
+    text-align: center;
+    /* height: 100%; */
+    /* margin-top: 65px; */
+    /* padding-left: 150px; */
+}
+
+.travelHead_box img{
+    /* max-width: 100%; */
+    max-height: 100%;
+    height: 500px;
+    margin-left: 100px;
+}
+
+.travelContent_bg{
+    background-color: #FFFFFF;
+    min-height: 100px;
+}
+
+.travelContent {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    background-color: #FFFFFF;
+    width: 80%;
+    z-index: 1;
+}
+
+.lifeContent {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    background-color: #FFFFFF;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+.travelContent .travelItem, .lifeContent .travelItem {
+    text-align: center;
+    margin: 30px 15px;
+    min-width: 130px;
+    font-size: 16px;
+    width: 20%;
+}
+
+.travelContent .travelItem span, .lifeContent .travelItem span{
+    color: #0654bd;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.split_line{
+    height: 100px;
+    border-left: #e2e5e7 solid 1px;
+    margin: 30px 0;
+}
+
+/* .getQuoteBtn_box{
+    position: absolute;
+    top: 400px;
+} */
+.getQuoteBtn {
+    font-size: 18px!important;
+    gap: 5px;
+    background: linear-gradient(to right, #ee5e24, #faa530) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+/* policyInfomation */
+.policyCardGroup {
+    background-color: #f2f2f2;
+    margin: 0 15px;
+}
+
+.policyCardGroup .card {
+    margin-bottom: 15px;
+}
+
+.policyCardGroup .card:last-child {
+    margin-bottom: 0;
+}
+
+.policyCardGroup .card .scrollTable {
+    padding: 0 15px;
+}
+
+.policyCardGroup .card .scrollTable+.row {
+    padding-right: 15px;
+}
+
+.policyCard .card .addBtn {
+    border: none;
+    color: #ff6600;
+}
+
+.policyCard .card .addBtn:hover {
+    border: none !important;
+    color: #ff7113 !important;
+}
+
+.policyCard .card .addBtn:active {
+    border: none !important;
+    color: #fd8e44 !important;
+}
+
+.policyFooter {
+    width: 100%;
+    background-color: #f2f2f2;
+    bottom: 0;
+    height: 60px;
+    padding: 5px 15px;
+    align-items: center;
+}
+
+.pageContent{
+    margin-bottom: 70px;
+}
+
+.policyFooter .form-group {
+    margin: 0;
+    width: auto;
+    flex-direction: row;
+}
+
+.policyFooter .form-group>label {
+    flex-basis: 0;
+    width: fit-content;
+    max-width: fit-content;
+}
+
+.policyFooter .form-group>label>.input-label {
+    color: #ff6600;
+    font-weight: 700;
+}
+
+
+.policyFooter .form-group>div {
+    flex-basis: 0;
+}
+
+.policyFooter .form-group>div>.outPutText {
+    color: #ff6600;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#confirmBuy .btn.btn-info,
+#InsureSuccess .btn.btn-default,
+#deleteInsuredPersonConfirmDialog .btn.btn-info,
+.policyFooter .btn {
+    border-radius: 0;
+    color: #ffffff;
+    border-color: #ff7113 !important;
+    background-color: #ff6600 !important;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.policyFooter .no-calc-btn {
+    border-radius: 0;
+    color: #ffffff;
+    border-color: #7c7c7c !important;
+    background-color: #7c7c7c !important;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+#confirmBuy .btn.btn-info:hover,
+#InsureSuccess .btn.btn-default:hover,
+#deleteInsuredPersonConfirmDialog .btn.btn-info:hover,
+.policyFooter .btn:hover {
+    background-color: #ff7113 !important;
+    border-color: #ff7113 !important;
+    color: #ffffff !important;
+}
+
+#confirmBuy .btn.btn-info:active,
+#InsureSuccess .btn.btn-default:active,
+#deleteInsuredPersonConfirmDialog .btn.btn-info:active,
+.policyFooter .btn:active {
+    background-color: #fd8e44 !important;
+    border-color: #fd8e44 !important;
+    color: #ffffff !important;
+}
+
+/* pay */
+.payAll {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.payItem {
+    position: relative;
+    width: calc((100% - 60px) / 3);
+    padding: 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.payItem .radioContent {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.payItem .radioContent .radio {
+    display: none;
+}
+
+.payItem .radioContent .radioBtn {
+    position: relative;
+    border: 1px solid #cccccc;
+    width: 14px;
+    height: 14px;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.payItem .radioContent .radio:checked+.radioBtn {
+    position: relative;
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+.payItem .radioContent .radio:checked+.radioBtn::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    width: 8px;
+    height: 4px;
+    border-left: 1.5px solid #FFFFFF;
+    border-bottom: 1.5px solid #FFFFFF;
+    transform: rotate(-45deg);
+}
+
+.payItem:nth-child(1),
+.payItem:nth-child(2),
+.payItem:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+.payItem:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.payItem .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.payItem .content .title {
+    margin-top: 10px;
+}
+
+.payContent {
+    padding: 20px 60px;
+    background-color: #FFFFFF;
+}
+
+.payCurrencyInfo {
+    display: inline-block;
+    border: 1px solid rgb(241, 162, 109);
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #ff6600;
+    background-color: #faf7f4;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+/* dialog 删除按钮样式覆盖 */
+/*确认按钮*/
+#confirmBuy .btn.btn-default,
+#deleteInsuredPersonConfirmDialog .btn.btn-default {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+#confirmBuy .btn.btn-default:hover,
+#deleteInsuredPersonConfirmDialog .btn.btn-default:hover {
+    color: #ff6600 !important;
+    border-color: #ff6600 !important;
+}
+
+.uipage_pa .top_box{
+    margin-top: 60px;
+}
+
+.top_box{
+    position: relative;
+}
+
+.top_box_content{
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.mod10-0 {
+    width: 46px;
+    height: 46px;
+    background: url(https://rainbow-doc.insuremo.com/static/rainbow/mobile/images/wechat.png)
+      100% no-repeat;
+  }
+
+  .mod10-1 {
+    width: 46px;
+    height: 46px;
+    background: url(https://rainbow-doc.insuremo.com/static/rainbow/mobile/images/unionpay.jpg)
+      100% no-repeat;
+  }
+
+  .mod10-2 {
+    width: 46px;
+    height: 46px;
+    background: url(https://rainbow-doc.insuremo.com/static/rainbow/mobile/images/alipay.jpg)
+      100% no-repeat;
+  }
+
+  .mod10-3 {
+    width: 46px;
+    height: 46px;
+    background: url(https://rainbow-doc.insuremo.com/static/rainbow/mobile/images/bestpay.jpg)
+      100% no-repeat;
+  }
+
+  .mod10-4 {
+    width: 46px;
+    height: 46px;
+    background: url(https://rainbow-doc.insuremo.com/static/rainbow/mobile/images/baidu.jpg)
+      100% no-repeat;
+  }
+
+  .mod10-5 {
+    width: 46px;
+    height: 46px;
+    background: url(https://rainbow-doc.insuremo.com/static/rainbow/mobile/images/qq.jpg)
+      100% no-repeat;
+  }

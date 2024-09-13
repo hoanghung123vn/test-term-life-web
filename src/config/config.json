@@ -1,0 +1,6 @@
+{
+  "UI_API_GATEWAY_PROXY": "https://trialzone1-sandbox-2-sg.insuremo.com/",
+  "LOCAL_PROXY_PATHS": [
+    "one-year-renewable-life-term-service"
+  ]
+}

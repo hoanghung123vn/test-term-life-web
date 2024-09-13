@@ -1,0 +1,38 @@
+{
+    "clientRequestId": "XXXXXXXX",
+    "clientRequestTime": "2024-05-28T15:42:51",
+    "policy": {
+      "applyDate": "2024-05-28T00:00:00",
+      "currency": 4,
+      "quotationCode": "XXXXXXXX",
+      "inceptionDate": "2024-05-28T00:00:00",
+      "customers": [
+        {
+          "partySerialId": 1,
+          "person": {
+            "gender": "M",
+            "birthdate": "2006-04-17"
+          }
+        }
+      ],
+      "coverages": [
+        {
+          "coverageSerialId": 1,
+          "chargePeriod": "5",
+          "chargeYear": 4,
+          "coveragePeriod": "2",
+          "coverageYear": 1,
+          "productCode": "1YearRenewabTerm",
+          "currentPremium": {
+            "paymentFreq": "5",
+            "sumAssured": 100000
+          },
+          "insureds": [
+            {
+              "partySerialId": 1
+            }
+          ]
+        }
+      ]
+    }
+  }

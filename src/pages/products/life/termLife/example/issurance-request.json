@@ -1,0 +1,16 @@
+{
+  "clientRequestId": "ffff4c6d000001120",
+  "clientRequestTime": "2023-06-17T11:19:42.286+0800",
+  "policy": {
+    "proposalNumber": "{{proposalNumber}}",
+    "payerAccount": {
+      "paymentMethod": 1
+    }
+  },
+  "collection": {
+    "collectionDate": "2023-06-17T11:19:42.286+0800",
+    "feeAmount": 91.75,
+    "payMode": 1,
+    "currency": 4
+  }
+}
