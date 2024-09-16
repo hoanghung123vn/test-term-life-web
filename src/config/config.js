@@ -1,5 +1,5 @@
 'use strict';
-let EXTERNAL_BFF_NAME = '1.0/one-year-renewable-life-term-service';
+let EXTERNAL_BFF_NAME = '1.0/termlife-bnk-test-service';
 
 module.exports = {
     DEFAULT_DATETIME_FORMATER: 'YYYY/MM/DD',
